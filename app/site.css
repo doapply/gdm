@@ -249,3 +249,20 @@ html {
     --tw-backdrop-saturate: ;
     --tw-backdrop-sepia: ;
 }
+.input-border-gradient:after {
+    --tw-blur: blur(4px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    z-index: -20;
+}
+
+.input-border-gradient:after, .input-border-gradient:before {
+    background-image: linear-gradient(268.91deg,#fb3 14.72%,#fff 51.94%,#e300bd 82.34%,#ff006a 94.81%);
+    border-radius: inherit;
+    bottom: 0;
+    content: var(--tw-content);
+    left: 0;
+    margin: -0.125rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
