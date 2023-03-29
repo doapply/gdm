@@ -11,6 +11,7 @@
     <div class="col-md-6 center-row">
         <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
     </div>
+    <div class="input-border-gradient relative mt-10 flex h-16 w-full max-w-[464px] items-center justify-between rounded-md bg-black pl-5 pr-3"><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" fill="none" class="mr-5 h-4 sm:mr-2.5" aria-hidden="true"><path d="m1 1 8 7-8 7" stroke="#fff" stroke-width="2"></path><path fill="#fff" stroke="#fff" d="M12.5 14.5h9v1h-9z"></path></svg><span class="whitespace-nowrap font-mono text-lg !leading-none text-white">npx novu init</span></div><button class="inline-flex items-center justify-center !leading-none text-center whitespace-nowrap rounded transition-[colors, opacity] duration-200 outline-none uppercase font-medium h-10 px-5 text-xs bg-white text-black hover:bg-[rgba(255,255,255,0.8)] relative"><span class="">Copy</span><span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0">Copied!</span></button></div>
     <div class="btn-group center-row">
         <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
         <button type="button" class="btn btn-default" ng-click="download()">Download</button>
